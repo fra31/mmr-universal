@@ -13,12 +13,12 @@ We introduce a regularization scheme which aims at expanding the linear regions 
 We show that in this way we are able to achieve *simultaneously provable robustness wrt all the
 Lp-norms for p>=1*.
 
-We first compute the largest Lp-ball contained in the union of an L1- and an Linf-ball and in the convex hull of the union, noticing
-that the latter is significatly larger than the former.
+We compute the largest Lp-balls contained, first, in the union of an L1- and an Linf-ball and, second, in the convex hull of that
+union, noticing that the latter is significatly larger than the former.
 
 <p align="center"><img src="https://raw.githubusercontent.com/fra31/mmr-universal/master/images/pl_gh_1.png" width="800">
 
-Then, exploiting this obseravation, we extend the *Maximum Margin Regularizer* of [(Croce et al, 2019)](https://arxiv.org/abs/1810.07481) to our new MMR-Universal, which provides
+Then, exploiting this observation, we extend the *Maximum Margin Regularizer* of [(Croce et al, 2019)](https://arxiv.org/abs/1810.07481) to our new MMR-Universal, which provides
 models which are provably robust according to the current
 state-of-the-art certification methods based on [Mixed Integer Programming](https://arxiv.org/abs/1711.07356)
 or its [LP-relaxations](https://arxiv.org/abs/1711.00851).
