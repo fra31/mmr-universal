@@ -23,7 +23,7 @@ models which are provably robust according to the current
 state-of-the-art certification methods based on [Mixed Integer Programming](https://arxiv.org/abs/1711.07356)
 or its [LP-relaxations](https://arxiv.org/abs/1711.00851).
 
-All the models trained with MMR-Universal and reported in the paper can be found in the folder `models`.
+All the models trained with MMR-Universal reported in the paper and the datasets required to run the code can be found in the folder `models` and `datasets` available [here](https://drive.google.com/open?id=1cl507cIHkiX6qnn2-mWUl8wg1Yu8c_qJ).
 
 ## Training MMR-Universal models
 
@@ -62,10 +62,12 @@ normalized L2 updates for the PGD attack.
 
 ## Citations
 ```
-@unpublished{crocehein2019multiplenorms,
-  title={Provable robustness against all adversarial $l_p$-perturbations for $p\geq 1$},
-  author={Croce, Francesco and Hein, Matthias},
-  note={preprint, arXiv:1905.11213},
-  year={2019}
+@inproceedings{
+croce2020@provable,
+title={Provable robustness against all adversarial $l_p$-perturbations for $p\geq 1$},
+author={Francesco Croce and Matthias Hein},
+booktitle={International Conference on Learning Representations},
+year={2020},
+url={https://openreview.net/forum?id=rklk_ySYPB}
 }
 ```
