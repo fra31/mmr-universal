@@ -63,7 +63,7 @@ normalized L2 updates for the PGD attack.
 ## Citations
 ```
 @inproceedings{
-croce2020@provable,
+croce2020provable,
 title={Provable robustness against all adversarial $l_p$-perturbations for $p\geq 1$},
 author={Francesco Croce and Matthias Hein},
 booktitle={International Conference on Learning Representations},
