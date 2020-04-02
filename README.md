@@ -23,7 +23,7 @@ models which are provably robust according to the current
 state-of-the-art certification methods based on [Mixed Integer Programming](https://arxiv.org/abs/1711.07356)
 or its [LP-relaxations](https://arxiv.org/abs/1711.00851).
 
-All the models trained with MMR-Universal reported in the paper and the datasets required to run the code can be found in the folder `models` and `datasets` available [here](https://drive.google.com/open?id=1cl507cIHkiX6qnn2-mWUl8wg1Yu8c_qJ).
+All the models trained with MMR-Universal reported in the paper and the datasets required to run the code can be found in the folders `models` and `datasets` available [here](https://drive.google.com/open?id=1cl507cIHkiX6qnn2-mWUl8wg1Yu8c_qJ).
 
 ## Training MMR-Universal models
 
